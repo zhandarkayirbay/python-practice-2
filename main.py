@@ -1,10 +1,9 @@
-# Input
+
 name = input("Enter student name: ")
 math = float(input("Enter Math grade: "))
 physics = float(input("Enter Physics grade: "))
 python_grade = float(input("Enter Python grade: "))
 
-# Calculations
 average = (math + physics + python_grade) / 3
 
 # Letter grade
