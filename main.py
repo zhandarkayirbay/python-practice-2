@@ -19,10 +19,10 @@ elif average >= 50:
 else:
     letter = 'F'
 
-# Scholarship
+
 scholarship = average >= 90 and math >= 70 and physics >= 70 and python_grade >= 70
 
-# Output main
+
 print("=" * 30)
 print("STUDENT REPORT CARD")
 print("=" * 30)
@@ -36,7 +36,7 @@ print("Letter grade :", letter)
 print("Scholarship :", scholarship)
 print("=" * 30)
 
-# C2 — Feedback
+
 grades = [math, physics, python_grade]
 subjects = ["Math", "Physics", "Python"]
 
@@ -52,7 +52,7 @@ for i in range(len(grades)):
     else:
         comment = "Fail"
     
-    print(subjects[i], ":", grade, "→", comment)
+    print(subjects[i], ":", grade, "-", comment)
 
 # C3 — Name analysis
 print("Name uppercase :", name.upper())
